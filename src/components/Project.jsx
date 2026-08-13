@@ -1,4 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
+import firstProj from '../assets/projects_assets/first.png';
+import secondProj from '../assets/projects_assets/second.png';
+import thirdProj from '../assets/projects_assets/third.png';
 
 const projects = [
   {
@@ -10,7 +13,7 @@ const projects = [
       </>
     ),
     description: "An AI + IoT based smart theft alert system using ESP32, Laser Security, OpenCV, CNN, and Telegram Alerts.The system detects intrusion using a laser beam. When the laser beam is interrupted, ESP32 triggers the AI pipeline. Python captures an image from the live camera feed, processes it using CNN, and sends a Telegram alert with the captured image.",
-    image: "src/assets/projects_assets/first.png"
+    image: firstProj
   },
   {
     name: 'ZenDesk Customer Support Ticket Resolution Agent',
@@ -21,7 +24,7 @@ const projects = [
       </>
     ),
     description: "An end-to-end AI agent that resolves customer support tickets using LangChain, ChromaDB, and GPT-4o-mini.",
-    image: "src/assets/projects_assets/second.png"
+    image: secondProj
   },
   {
     name: 'QuickAI ',
@@ -32,7 +35,7 @@ const projects = [
       </>
     ),
     description: "QuickAI is a full-featured AI SaaS web application built with React 19 + Vite + Tailwind CSS v4. It gives creators 6 powerful AI tools to write articles, generate images, remove backgrounds, and more — all in one dashboard.",
-    image: "src/assets/projects_assets/third.png"
+    image: thirdProj
   },
  
 ];
